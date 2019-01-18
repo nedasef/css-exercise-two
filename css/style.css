@@ -1,19 +1,45 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 18px;
+  background-color: #eeeeee;
+  color: #000000;
+  line-height: 1.1;
+ }
+
+  a:visited { color:white; } /* visited */
+  a:hover { color:red; } /* mouse over */
+  a:active { color:purple; } /* selected */
+
+
+a { 
+    color:#0070BB;/* unvisited */
+    text-decoration: none;
+  }
+
+
+h1 {
+  font-size:45px;
+  line-height: 1.5;
 }
 
+h3 {
+  font-size:25px;
+  line-height: 1.2;
+}
+
+
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(51,51,51,.5);
   float: left;
   position: fixed;
   width: 100%;
 }
 
+
 .logo {
   margin: 20px;
   width: 100px;
 }
+
 
 .large-pic {
   width: 100%;
@@ -44,6 +70,10 @@ li {
 
 article {
   padding-top: 100px;
+}
+
+p {
+padding-bottom: 20px;
 }
 
 .container {
